@@ -1,7 +1,3 @@
-# Данные для тестов
-from faker import Faker
-
-
 # HTTP-статусы
 class HttpStatuses:
     OK = 200
