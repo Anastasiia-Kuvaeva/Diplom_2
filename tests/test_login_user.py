@@ -2,7 +2,7 @@ import allure
 
 from utils.user_utils import UserUtils
 from data import (HttpStatuses)
-from data import UserData
+from helpers import UserData
 
 
 # Тестовый набор логина пользователя

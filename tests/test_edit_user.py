@@ -3,7 +3,7 @@ import allure
 
 from utils.user_utils import UserUtils
 from data import (HttpStatuses, ErrorMessages)
-from data import UserData
+from helpers import UserData
 
 
 # Тестовый набор изменения пользователя

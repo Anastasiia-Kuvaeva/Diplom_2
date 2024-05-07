@@ -1,9 +1,9 @@
 import pytest
-from data import UserData
+from helpers import UserData
 from utils.user_utils import UserUtils
 
 
-# Фикстура создания м последующего удаления пользователя
+# Фикстура создания и последующего удаления пользователя
 @pytest.fixture
 def create_and_delete_new_user():
     # Генерация данных нового пользователя
